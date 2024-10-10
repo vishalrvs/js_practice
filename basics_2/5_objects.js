@@ -3,5 +3,7 @@ const course = {
     price : "00999",
     courseInstructor : "Hitesh"
 }
-const {courseInstructor:ins} = course
+const {courseInstructor} = course //Object destructuring
+console.log(courseInstructor);
+const {courseInstructor:ins} = course //Object destructuring
 console.log(ins);
